@@ -18,7 +18,7 @@ read -p "Do you want to update the system time and timezone? (y/n): " choice
 
 if [[ $choice == "y" || $choice == "Y" ]]; then
   # Prompt for the new timezone
-  read -p "Enter the new timezone (e.g., 'America/New_York'): " new_timezone
+  read -p "Enter the new timezone (e.g., 'Europe/Stockholm'): " new_timezone
 
   # Set the new timezone
   timedatectl set-timezone "$new_timezone"
