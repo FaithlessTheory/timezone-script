@@ -13,7 +13,7 @@ Here is a step by step of the script:
 7. Provide a success message.
 
 
-## How to & Download
+## How To & Download
 - Download the file or save this script to a file (e.g., update_time_and_timezone.sh), make it executable:
 - `chmod +x update_time_and_timezone.sh`
 - Run it with sudo privileges to update your system's time and timezone.
