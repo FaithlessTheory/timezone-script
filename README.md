@@ -1,5 +1,5 @@
 # Timezone and System Time Change Script
-Script for checking and altering Timezone in Linux. This is used to provide a setp by step prompt to change your timezone in your server.
+Script for checking and altering Timezone in Linux. This is used to provide a step by step prompt to change your timezone in your server.
 
 What does the script do?
 Here is a step by step of the script:
