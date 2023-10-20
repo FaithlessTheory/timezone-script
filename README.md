@@ -1,13 +1,15 @@
 # timezone-script
-Script for checking and altering Timezone in Linux
+Script for checking and altering Timezone in Linux. This is used to provide a setp by step prompt to change your timezone in your server.
 
-Here's a step-by-step explanation of the script:
+What does the script do?
+Here is a step by step of the script:
 
-Check if the script is being run with root (sudo) privileges to update the system time and timezone.
-Display the current system time and timezone using the date and timedatectl commands.
-Prompt the user if they want to update the system time and timezone.
-If the user chooses to update, the script will prompt for the new timezone.
-Set the new timezone using the timedatectl set-timezone command.
-Display the updated system time and timezone.
-Provide a success message.
-Save this script to a file (e.g., update_time_and_timezone.sh), make it executable using the chmod +x update_time_and_timezone.sh command, and run it with sudo privileges to update your system's time and timezone.
+1. Check if the script is being run with root (sudo) privileges to update the system time and timezone.
+2. Display the current system time and timezone using the date and timedatectl commands.
+3. Prompt the user if they want to update the system time and timezone.
+4. If the user chooses to update, the script will prompt for the new timezone.
+5. Set the new timezone using the timedatectl set-timezone command.
+6. Display the updated system time and timezone.
+7. Provide a success message.
+
+Download the file or save this script to a file (e.g., update_time_and_timezone.sh), make it executable using the chmod +x update_time_and_timezone.sh command, and run it with sudo privileges to update your system's time and timezone.
